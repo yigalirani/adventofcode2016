@@ -1,1 +1,0 @@
-print tuple(i * 4 for i in (3,4))
