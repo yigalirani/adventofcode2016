@@ -1,8 +1,3 @@
-import re
-def yield_match(regex,input):
-	ans=re.match(regex,input)
-	if (ans):
-		yield ans.groups()
 cur=[]
 def add(start,end):
 	for i,(estart,eend) in enumerate(cur):
